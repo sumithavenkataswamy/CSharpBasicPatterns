@@ -1,4 +1,4 @@
-**Singleton pattern:**
+### **Singleton pattern:**
 The Singleton pattern ensures that only one instance of a class is created throughout the application's lifecycle. This instance is globally accessible and provides a centralized point of control.
 
 **Key Features:**
