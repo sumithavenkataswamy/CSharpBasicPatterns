@@ -1,22 +1,24 @@
-﻿using CSharpBasicPatterns.SingletonPattern;
+﻿using CSharpBasicPatterns.RepositoryPattern;
+using CSharpBasicPatterns.SingletonPattern;
 
-var instance = ProductConfiguration.GetProductConfigurationInstance();
+#region Singleton Pattern Caller 
+//var instance = ProductConfiguration.GetProductConfigurationInstance();
 
-instance.SetProductConfiguration(new Configuration()
-{
-    ProductName = "Laptop",
-    ProductVersion = "1.0.0",
-});
+//instance.SetProductConfiguration(new Configuration()
+//{
+//    ProductName = "Laptop",
+//    ProductVersion = "1.0.0",
+//});
 
-PrintProdConfiguration();
+//PrintProdConfiguration();
 
-void PrintProdConfiguration()
-{
-    foreach (var item in instance.getProductConfigurations())
-    {
-        Console.WriteLine($"ProductName: {item.ProductName} ProductVersion: {item.ProductVersion}");
-    }
-}
+//void PrintProdConfiguration()
+//{
+//    foreach (var item in instance.getProductConfigurations())
+//    {
+//        Console.WriteLine($"ProductName: {item.ProductName} ProductVersion: {item.ProductVersion}");
+//    }
+//}
 
 #region Multithreads
 
@@ -38,4 +40,13 @@ void PrintProdConfiguration()
 //}
 
 //Console.WriteLine("All threads have completed execution.");
+#endregion
+#endregion
+
+#region Repository Pattern Caller
+IProductRepository productRepository = new ProductRepository();
+foreach(var product in productRepository.GetAllProducts())
+{
+    Console.WriteLine(product.Name);
+}
 #endregion

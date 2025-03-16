@@ -21,6 +21,7 @@ namespace CSharpBasicPatterns.SingletonPattern
             {
                 Console.WriteLine("instance is null here");
 
+                // it will allow only one thread to enter in the critical section
                 lock (_instanceLock)
                 {
                     if (_instance == null)
