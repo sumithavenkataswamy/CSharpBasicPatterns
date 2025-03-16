@@ -1,4 +1,5 @@
-﻿using CSharpBasicPatterns.RepositoryPattern;
+﻿using CSharpBasicPatterns.FactoryPattern;
+using CSharpBasicPatterns.RepositoryPattern;
 using CSharpBasicPatterns.SingletonPattern;
 
 #region Singleton Pattern Caller 
@@ -44,9 +45,15 @@ using CSharpBasicPatterns.SingletonPattern;
 #endregion
 
 #region Repository Pattern Caller
-IProductRepository productRepository = new ProductRepository();
-foreach(var product in productRepository.GetAllProducts())
-{
-    Console.WriteLine(product.Name);
-}
+//IProductRepository productRepository = new ProductRepository();
+//foreach(var product in productRepository.GetAllProducts())
+//{
+//    Console.WriteLine(product.Name);
+//}
+#endregion
+
+#region Factory Pattern Caller
+var type = "physical";
+var productInstance = ProductFactory.CreateProduct(type);
+productInstance.DisplayProductDetails();
 #endregion

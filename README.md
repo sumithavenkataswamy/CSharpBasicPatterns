@@ -15,3 +15,8 @@ The Singleton pattern ensures that only one instance of a class is created throu
 ✅ Business logic is decoupled from the data access layer, so changes in the underlying database or data source won't impact the business logic. </br>
 ✅ Error handling and logging for all database operations can be centralized within the repository, ensuring consistency and ease of debugging. </br>
 
+### **factory Pattern**:
+✅ It centralizes the object creation logic in a single place, ensuring consistency and reducing duplication.
+✅ The client specifies the type, and the factory creates and returns the appropriate instance.
+✅ It simplifies future maintenance—when new subtypes are introduced, updates are only needed in the factory class.
+✅ It promotes loose coupling by decoupling the client code from the concrete implementation of objects.

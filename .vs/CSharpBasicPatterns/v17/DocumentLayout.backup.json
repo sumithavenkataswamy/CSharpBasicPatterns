@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|solutionrelative:csharpbasicpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|c:\\users\\rishi\\source\\repos\\csharpbasicpatterns\\csharpbasicpatterns\\common\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|solutionrelative:csharpbasicpatterns\\common\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|c:\\users\\rishi\\source\\repos\\csharpbasicpatterns\\csharpbasicpatterns\\factorypattern\\productfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|solutionrelative:csharpbasicpatterns\\factorypattern\\productfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|c:\\users\\rishi\\source\\repos\\csharpbasicpatterns\\csharpbasicpatterns\\factorypattern\\iproductdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|solutionrelative:csharpbasicpatterns\\factorypattern\\iproductdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|c:\\users\\rishi\\source\\repos\\csharpbasicpatterns\\csharpbasicpatterns\\repositorypattern\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|solutionrelative:csharpbasicpatterns\\repositorypattern\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|c:\\users\\rishi\\source\\repos\\csharpbasicpatterns\\csharpbasicpatterns\\repositorypattern\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|solutionrelative:csharpbasicpatterns\\repositorypattern\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|c:\\users\\rishi\\source\\repos\\csharpbasicpatterns\\csharpbasicpatterns\\common\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12CCFF2F-F9FA-4D96-9C27-F1AADF8EA876}|CSharpBasicPatterns\\CSharpBasicPatterns.csproj|solutionrelative:csharpbasicpatterns\\common\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +34,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductFactory.cs",
+              "DocumentMoniker": "C:\\Users\\rishi\\source\\repos\\CSharpBasicPatterns\\CSharpBasicPatterns\\FactoryPattern\\ProductFactory.cs",
+              "RelativeDocumentMoniker": "CSharpBasicPatterns\\FactoryPattern\\ProductFactory.cs",
+              "ToolTip": "C:\\Users\\rishi\\source\\repos\\CSharpBasicPatterns\\CSharpBasicPatterns\\FactoryPattern\\ProductFactory.cs",
+              "RelativeToolTip": "CSharpBasicPatterns\\FactoryPattern\\ProductFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T13:25:26.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductDetail.cs",
+              "DocumentMoniker": "C:\\Users\\rishi\\source\\repos\\CSharpBasicPatterns\\CSharpBasicPatterns\\FactoryPattern\\IProductDetail.cs",
+              "RelativeDocumentMoniker": "CSharpBasicPatterns\\FactoryPattern\\IProductDetail.cs",
+              "ToolTip": "C:\\Users\\rishi\\source\\repos\\CSharpBasicPatterns\\CSharpBasicPatterns\\FactoryPattern\\IProductDetail.cs",
+              "RelativeToolTip": "CSharpBasicPatterns\\FactoryPattern\\IProductDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T13:23:23.215Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +70,14 @@
               "RelativeDocumentMoniker": "CSharpBasicPatterns\\Program.cs",
               "ToolTip": "C:\\Users\\rishi\\source\\repos\\CSharpBasicPatterns\\CSharpBasicPatterns\\Program.cs",
               "RelativeToolTip": "CSharpBasicPatterns\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T12:53:48.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\rishi\\source\\repos\\CSharpBasicPatterns\\CSharpBasicPatterns\\RepositoryPattern\\ProductRepository.cs",
               "RelativeDocumentMoniker": "CSharpBasicPatterns\\RepositoryPattern\\ProductRepository.cs",
@@ -51,12 +85,11 @@
               "RelativeToolTip": "CSharpBasicPatterns\\RepositoryPattern\\ProductRepository.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T12:50:45.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T12:50:45.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\rishi\\source\\repos\\CSharpBasicPatterns\\CSharpBasicPatterns\\RepositoryPattern\\IProductRepository.cs",
               "RelativeDocumentMoniker": "CSharpBasicPatterns\\RepositoryPattern\\IProductRepository.cs",
@@ -64,12 +97,11 @@
               "RelativeToolTip": "CSharpBasicPatterns\\RepositoryPattern\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T12:50:25.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T12:50:25.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\rishi\\source\\repos\\CSharpBasicPatterns\\CSharpBasicPatterns\\Common\\Product.cs",
               "RelativeDocumentMoniker": "CSharpBasicPatterns\\Common\\Product.cs",
