@@ -1,6 +1,7 @@
 ﻿using CSharpBasicPatterns.FactoryPattern;
 using CSharpBasicPatterns.RepositoryPattern;
 using CSharpBasicPatterns.SingletonPattern;
+using System.Threading.Channels;
 
 #region Singleton Pattern Caller 
 //var instance = ProductConfiguration.GetProductConfigurationInstance();
@@ -21,6 +22,37 @@ using CSharpBasicPatterns.SingletonPattern;
 //    }
 //}
 
+#region SigletonWithLazyLoading
+//var instance = ProductConfigurationLazy.GetInstance;
+//instance.SetProductConfiguration(new Configuration()
+//{
+//    ProductName = "laptop",
+//    ProductVersion = "1.0.0"
+//});
+
+//PrintProdConfiguration();
+
+//instance.SetProductConfiguration(new Configuration()
+//{
+//    ProductName = "laptop2",
+//    ProductVersion = "1.0.0"
+//});
+
+//PrintProdConfiguration();
+//void PrintProdConfiguration()
+//{
+//    foreach (var item in instance.getProductConfigurations())
+//    {
+//        Console.WriteLine($"ProductName: {item.ProductName} ProductVersion: {item.ProductVersion}");
+//    }
+//}
+
+// thread will take always delegate, which is return type is void and parameterless
+
+Thread thread = new Thread(() => Console.WriteLine(ProductConfigurationLazy.GetInstance()));
+thread.Start();
+
+#endregion
 #region Multithreads
 
 //static void CreateInstance() => ProductConfiguration.GetProductConfigurationInstance();

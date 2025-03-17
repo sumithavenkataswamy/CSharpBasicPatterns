@@ -8,6 +8,11 @@ The Singleton pattern ensures that only one instance of a class is created throu
 ✅ Thread Safety – Ensures that multiple threads do not create multiple instances. </br>
 ✅ Efficient Resource Management – Prevents unnecessary memory usage and redundant object creation. </br>
 
+### **Singleton pattern With Lazy Loading :**
+✅ Benefits of Using Lazy Loading with Lazy<T>: </br>
+✅ Improved Performance: The instance is created only when needed. </br>
+✅Built-in Thread-Safety: No need for manual lock handling. </br>
+
 ### **Repository Pattern**:
 ✅ It separates the data access logic from the business logic within the application, ensuring a clean architecture. </br>
 ✅ It promotes loose coupling, making it easier to test the application components independently. </br>
